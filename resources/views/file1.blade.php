@@ -4,6 +4,7 @@
 	<title></title>
 </head>
 <body>
+	<h1>hello git</h1>
 	<form action="{{url('insertApple')}}" method="POST">
 		@csrf
 		<input type="color" name="color"><br>
